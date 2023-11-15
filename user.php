@@ -1,5 +1,6 @@
 <?php
-// jana
+// modar
+// asd
 session_start();
 require('conn.php');
 class user
@@ -8,7 +9,6 @@ class user
     private $username;
     private $password;
     private $role;
-
     public function __construct()
     {
         $db = Database::getInstance();
