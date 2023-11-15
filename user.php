@@ -1,6 +1,5 @@
 <?php
-// tammam
-//shami
+// jana
 session_start();
 require('conn.php');
 class user
