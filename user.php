@@ -1,5 +1,6 @@
 <?php
-// modar
+// fawaz
+// tammam
 session_start();
 require('conn.php');
 class user
@@ -14,7 +15,6 @@ class user
         $db = Database::getInstance();
         $this->db = $db->getConnection();
     }
-
     public function register($username, $password, $role) //... Register 
     {
         $this->username = $username;
