@@ -1,6 +1,5 @@
 <?php
-// test
-// asd
+// modar
 session_start();
 require('conn.php');
 class user
